@@ -1,0 +1,21 @@
+{
+  "name": "yourvendorname/yourpackagename",
+  "description": "Cross-framework module for xxx/yyy",
+  "license": "MIT",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "YourVendor\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "container-interop/service-provider": "^0.3"
+  },
+  "require-dev": {
+    "puli/cli":"^1.0",
+    "puli/composer-plugin": "^1.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
