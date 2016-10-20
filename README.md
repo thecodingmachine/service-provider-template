@@ -47,3 +47,6 @@ This *service provider* extends those services:
 | Name                        | Compulsory | Description                            |
 |-----------------------------|------------|----------------------------------------|
 | `service_name`              | *yes*      | Definition                             |
+
+
+<small>Project template courtesy of <a href="https://github.com/thecodingmachine/service-provider-template">thecodingmachine/service-provider-template</a></small>
