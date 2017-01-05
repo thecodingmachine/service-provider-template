@@ -16,7 +16,7 @@ composer require yourvendorname/yourpackagename
 
 Once installed, you need to register the [`YourVendor\XXXServiceProvider`](src/XXXServiceProvider.php) into your container.
 
-If your container supports Puli integration, you have nothing to do. Otherwise, refer to your framework or container's documentation to learn how to register *service providers*.
+If your container supports [thecodingmachine/discovery](https://github.com/thecodingmachine/discovery) integration, you have nothing to do. Otherwise, refer to your framework or container's documentation to learn how to register *service providers*.
 
 ## Introduction
 
