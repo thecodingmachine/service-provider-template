@@ -10,11 +10,7 @@
   },
   "require": {
     "php": ">=7.0",
-    "container-interop/service-provider": "^0.3"
-  },
-  "require-dev": {
-    "puli/cli":"^1.0",
-    "puli/composer-plugin": "^1.0"
+    "thecodingmachine/funky": "^1"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
