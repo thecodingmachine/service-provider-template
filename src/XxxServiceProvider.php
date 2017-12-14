@@ -2,15 +2,18 @@
 
 namespace YourVendor;
 
-use Interop\Container\ContainerInterface;
-use Interop\Container\ServiceProvider;
 
-class XxxServiceProvider implements ServiceProvider
+use TheCodingMachine\Funky\Annotations\Factory;
+use TheCodingMachine\Funky\ServiceProvider;
+
+class XxxServiceProvider extends ServiceProvider
 {
-    public function getServices()
+    /**
+     * @Factory()
+     * @return MyService
+     */
+    public function getMyService(): MyService
     {
-        return [
-            // Add services here...
-        ];
+        return new MyService;
     }
 }
