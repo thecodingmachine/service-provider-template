@@ -3,6 +3,8 @@ This project contains sample README and PHP files to quickstart a "container-int
 [![Latest Stable Version](https://poser.pugx.org/yourvendorname/yourpackagename/v/stable)](https://packagist.org/packages/yourvendorname/yourpackagename)
 [![Latest Unstable Version](https://poser.pugx.org/yourvendorname/yourpackagename/v/unstable)](https://packagist.org/packages/yourvendorname/yourpackagename)
 [![License](https://poser.pugx.org/yourvendorname/yourpackagename/license)](https://packagist.org/packages/yourvendorname/yourpackagename)
+[![Build Status](https://travis-ci.org/yourvendorname/yourpackagename.svg?branch=master)](https://travis-ci.org/yourvendorname/yourpackagename)
+[![Coverage Status](https://coveralls.io/repos/yourvendorname/yourpackagename/badge.svg?branch=master&service=github)](https://coveralls.io/github/yourvendorname/yourpackagename?branch=master)
 
 # XXX universal module
 
