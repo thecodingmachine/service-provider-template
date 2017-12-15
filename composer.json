@@ -20,6 +20,11 @@
     "mnapoli/simplex": "^0.4.1",
     "squizlabs/php_codesniffer": "^3.2"
   },
+  "scripts": {
+    "phpstan": "phpstan analyse src -c phpstan.neon --level=7 --no-progress -vvv",
+    "cs-check": "phpcs",
+    "cs-fix": "phpcbf"
+  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }
